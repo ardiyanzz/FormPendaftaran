@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Data Siswa</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+
+    <h2>Form Biodata Siswa</h2>
+
+    <form action="" method="post">
+        <b><label for="nama">Nama Lengkap</label><br></b>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap" required><br><br>
+
+        <b><label for="alamat">Alamat</label><br></b>
+        <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Masukkan Alamat" required></textarea><br><br>
+
+        <b><label for="nama">Tempat Lahir</label><br></b>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan tempat lahir" required><br><br>
+
+        <b><label for="checkIn">Tanggal lahir</label><br></b>
+        <input type="date" id="checkIn" name="checkIn" required /><br><br>
+
+        <b><label for="jenis-kelamin">Jenis Kelamin</label><br></b>
+        <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-Laki" required>
+        <label for="laki-laki">Laki-Laki</label><br>
+        <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan" required>
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <b><label for="hobi">Hobi</label><br></b>
+        <input type="checkbox" id="Membaca" name="hobi" value="Membaca">
+        <label for="Membaca">Membaca</label><br>
+        <input type="checkbox" id="Traveling" name="hobi" value="Traveling">
+        <label for="Traveling">Traveling</label><br>
+        <input type="checkbox" id="Olahraga" name="hobi" value="Olahraga">
+        <label for="Olahraga">Olahraga</label><br><br>
+
+        <b><label for="kelas">Kelas</label><br></b>
+        <select id="kelas" name="kelas" required>
+            <option value="X PPLG 1">X PPLG 1</option>
+            <option value="X PPLG 2">X PPLG 2</option>
+        </select><br><br>
+
+        <button type="submit">Login</button><br>
+
+        <input type="checkbox" id="Remember me" name="Remember me" value="Remember me">
+        <label for="Remember me">Remember me</label><br><br>
+    </form>
+
+</body>
+</html>
